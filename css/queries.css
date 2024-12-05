@@ -1,0 +1,425 @@
+@media (max-width: 109em) {
+  .hero {
+    max-width: 174rem;
+  }
+
+  .fixed {
+    position: fixed !important;
+    z-index: 9999;
+  }
+}
+
+@media (max-width: 100em) {
+  .hero {
+    max-width: 160rem;
+  }
+
+  .gradient {
+    width: 160rem !important;
+  }
+
+  .action_button {
+    font-size: 1rem;
+  }
+
+  .btn {
+    margin-left: 52rem !important;
+    margin-right: 52rem !important;
+    text-align: center !important;
+  }
+
+  .heading {
+    font-size: 5rem !important;
+  }
+}
+
+/* SMALLER LAPTOPS */
+
+@media (max-width: 84em) {
+  .container {
+    max-width: 90rem !important;
+  }
+
+  .hero {
+    max-width: 134.4rem;
+  }
+
+  .gradient {
+    max-width: 134rem;
+  }
+
+  .heading {
+    font-size: 4.8rem !important;
+    /* width: 70% ; */
+    letter-spacing: -1;
+  }
+
+  .btn {
+    margin-left: 42rem !important;
+    margin-right: 42rem !important;
+    text-align: center !important;
+  }
+
+  .action_button {
+    overflow: hidden;
+    /* width: 6.4rem ; */
+    font-size: 2.8rem;
+    padding: 1rem 7.2rem;
+  }
+
+  .logo-hero {
+    left: 37rem;
+  }
+
+  .copyright {
+    margin-left: 40rem !important;
+  }
+}
+
+@media (max-width: 80em) {
+  .hero {
+    max-width: 128rem !important;
+  }
+
+  .gradient {
+    width: 128rem !important;
+  }
+}
+
+@media (max-width: 78em) {
+  html {
+  }
+
+  .container {
+    max-width: 80rem !important;
+    margin: 0 auto !important;
+  }
+
+  .hero {
+    font-size: 52.5%;
+    max-width: 120rem !important;
+  }
+
+  .gradient {
+    width: 120rem !important;
+  }
+
+  .heading {
+    font-size: 4.2rem !important;
+  }
+
+  .btn {
+    margin-left: 22rem !important;
+    margin-right: 22rem !important;
+    text-align: center !important;
+  }
+
+  .copyright {
+    margin-left: 30rem;
+  }
+}
+
+@media (max-width: 75em) {
+  /* /* body {
+    font-size: 45.5% ;
+  } */
+
+  .container {
+    max-width: 75rem !important;
+    margin: 0 auto !important;
+  }
+
+  .hero {
+    max-width: 111.4rem;
+  }
+
+  .gradient {
+    width: 111.4rem !important;
+  }
+
+  .heading {
+    font-size: 3.8rem;
+  }
+
+  .heading2 {
+    font-size: 4.8rem !important;
+  }
+
+  .about_us {
+    font-size: 2.6rem !important;
+  }
+
+  .section_icons {
+    font-size: 1.8rem !important;
+    gap: 2.4rem;
+  }
+
+  .btn {
+    margin-left: 15rem !important;
+    margin-right: 15rem !important;
+    text-align: center !important;
+  }
+
+  .about_us {
+    font-size: 1.4rem !important;
+  }
+}
+
+/* fOR FOR PHONES */
+/* @media (max-width: 56em) { */
+@media (max-width: 73em) {
+  .heading {
+    font-size: 3.2rem !important;
+  }
+}
+
+@media (max-width: 65em) {
+  .mobile-btn {
+    display: block !important;
+    /* z-index: 9999; */
+  }
+
+  header {
+    position: relative;
+  }
+
+  nav {
+    background-color: hwb(208 11% 16% / 0.482);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.5s ease-in-out;
+    /* gap: 2.4rem; */
+
+    opacity: 0;
+
+    pointer-events: none;
+
+    visibility: hidden;
+  }
+
+  .nav-open nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .header {
+    font-size: 5.8rem !important;
+  }
+
+  .nav-open .icon1[name="close"] {
+    display: block;
+  }
+
+  .nav-open .icon1[name="menu"] {
+    display: none;
+  }
+  .container {
+    max-width: 105rem !important;
+  }
+
+  .hero {
+    max-width: 105rem !important;
+  }
+
+  .gradient {
+    width: 103rem !important;
+  }
+
+  .about_us {
+    font-size: 1.8rem;
+  }
+
+  .section_icons {
+    font-size: 2rem !important;
+  }
+
+  .heading {
+    top: 20rem !important;
+    left: 10rem !important;
+    font-size: 3.4rem !important;
+    text-align: center !important;
+  }
+
+  .btn-container {
+    top: 60rem !important;
+    left: 28rem !important;
+  }
+
+  .company {
+    top: -10rem !important;
+  }
+
+  .logo-hero {
+    top: -11rem !important;
+  }
+
+  .about_us {
+    font-size: 1.4rem !important;
+  }
+
+  .copyright {
+    margin-left: 30rem !important;
+  }
+
+  .btn {
+    margin-left: 10rem !important;
+    margin-right: 10rem !important;
+    text-align: center !important;
+  }
+
+  .about_us {
+    font-size: 1.4rem !important;
+  }
+
+  .mobile-btn {
+    margin-left: 75rem !important;
+  }
+
+  .company {
+    top: -5rem !important;
+  }
+
+  .logo-hero {
+    top: -5rem !important;
+    left: 38rem !important;
+  }
+}
+
+@media (max-width: 63em) {
+  .hero {
+    max-width: 100rem !important;
+  }
+
+  .gradient {
+    width: 100rem !important;
+  }
+
+  .heading {
+    font-size: 3.2rem !important;
+  }
+
+  .section_icons {
+    font-size: 1.2rem !important;
+    grid-template-columns: 1fr !important;
+  }
+  .copyright {
+    margin-left: 18rem !important;
+    font-size: 1rem !important;
+  }
+
+  .btn {
+    margin-left: 5rem !important;
+    margin-right: 5rem !important;
+    text-align: center !important;
+  }
+
+  .footer-container {
+    font-size: 1.2rem !important;
+    margin-right: 10rem !important;
+  }
+
+  .about_us {
+    font-size: 1.4rem !important;
+  }
+
+  .heading2 {
+    font-size: 1.8rem !important;
+  }
+}
+
+@media (max-width: 61em) {
+  .container {
+    max-width: 98.3rem !important;
+  }
+
+  .hero {
+    max-width: 98.3rem !important;
+  }
+
+  .gradient {
+    width: 98.3rem !important;
+  }
+
+  .section_icons {
+    font-size: 1.2rem !important;
+    grid-template-columns: 1fr !important;
+  }
+
+  .footer-container {
+    font-size: 1.2rem !important;
+    margin-right: 10rem !important;
+  }
+}
+
+@media (max-width: 60em) {
+  .btn-container {
+    font-size: 1.6rem !important;
+  }
+
+  .mobile-btn {
+    margin-left: 63rem !important;
+  }
+}
+
+@media (max-width: 38em) {
+  .container {
+    max-width: 60rem !important;
+  }
+
+  .hero {
+    max-width: 60rem !important;
+  }
+
+  .gradient {
+    width: 60rem !important ;
+  }
+
+  .footer-container {
+    font-size: 1.2rem !important;
+  }
+
+  .section_icons {
+    font-size: 1rem !important;
+  }
+
+  .section_icons {
+    font-size: 1.2rem !important;
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 25em) {
+  .hero {
+    max-width: 40rem !important;
+  }
+
+  .about_us {
+    font-size: 1.2rem !important;
+  }
+
+  .section_icons {
+    font-size: 1.2rem !important;
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 22em) {
+  .hero {
+    max-width: 30rem !important;
+  }
+
+  .section_icons {
+    font-size: 1.2rem !important;
+    grid-template-columns: 1fr !important;
+  }
+}
